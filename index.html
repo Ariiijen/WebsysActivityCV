@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Online CV</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+        <header>
+            <h1>My Portfolio</h1>
+
+        </header>
+
+            <ul class="nav">
+                <li><a href="#about">About</a>
+                <li><a href="#skills">Skills</a>
+                <li><a href="#contact">Contact</a>
+            </ul>
+
+    <div class="center">
+        <img src="./assets/images/cat.jpg" style="display: block; margin: 0 auto; width: 500px;">
+    </div>
+    
+    <div class="container">
+                <div class="card" id="about">
+                    <h1 sty>My Portfolio</h1>
+                    <h2 style="justify-content: center;">About Me</h2>
+                    <p>I am future IT professional</p>
+                </div>
+        
+        <div class="card" id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML
+                <li>CSS
+                <li>JavaScript
+            </ul>
+        </div>
+
+        <div class="card" id="contact">
+            <h2>Contact</h2>
+                <form action="send.php" method="POST">
+                <label>Name</label>
+                <input type="text" name="name" placeholder="Enter your Name" >
+
+                <label>Email</label>
+                <input type="email" name="email" placeholder="Enter your Email">
+                </form>
+
+                <textarea id="messagebox" name="message" placeholder="Type your message here...."></textarea>
+                <button id="sendbutton" type="submit">Send</button>
+        </div>
+    </div>
+
+    <footer>
+    <p>2026 All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
